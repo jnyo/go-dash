@@ -965,7 +965,7 @@ func (as *AdaptationSet) AddNewRepresentationAudio(samplingRate int64, bandwidth
 
 // Adds a new Video representation to an AdaptationSet.
 // bandwidth - in Bits/s (i.e. 1518664).
-// codecs - codec string for Audio Only (in RFC6381, https://tools.ietf.org/html/rfc6381) (i.e. avc1.4d401f).
+// codecs - codec string for Video Only (in RFC6381, https://tools.ietf.org/html/rfc6381) (i.e. avc1.4d401f).
 // id - ID for this representation, will get used as $RepresentationID$ in template strings.
 // frameRate - video frame rate (as a fraction) (i.e. 30000/1001).
 // width - width of the video (i.e. 1280).
